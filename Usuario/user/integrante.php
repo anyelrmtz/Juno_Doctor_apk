@@ -14,5 +14,5 @@ while($row=sqlsrv_fetch_Array($sentencia,SQLSRV_FETCH_ASSOC)){
    
 }
 
- a
+ 
 ?>
