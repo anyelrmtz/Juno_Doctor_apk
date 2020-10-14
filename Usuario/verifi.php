@@ -15,5 +15,5 @@ if($row=sqlsrv_fetch_Array($sentencia,SQLSRV_FETCH_ASSOC)){
 }else{
     echo $data='0';
 }
- 
+ a
 ?>
