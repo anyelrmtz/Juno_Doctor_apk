@@ -1,5 +1,5 @@
 <?php 
-require '../../Conexion/conexion.php';
+require '../../../Conexion/conexion.php';
 $datos=$_GET;
 $clave=$datos['clave'];
 $data='0';
