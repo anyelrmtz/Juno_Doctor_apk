@@ -10,7 +10,7 @@ if($sentencia===false){
 }
 
 while($row=sqlsrv_fetch_Array($sentencia,SQLSRV_FETCH_ASSOC)){
-    echo $row['correo'];
+    echo $row['correos'];
 }
  
 ?>
