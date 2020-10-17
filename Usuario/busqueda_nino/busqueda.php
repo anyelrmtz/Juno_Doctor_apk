@@ -3,7 +3,7 @@
 $datos=$_GET;
 $clave=$datos['clave'];
 $data='0';*/
-$fechaActual = date('d-m-Y');
+$fechaActual = date('d/m/Y');
 
 echo $fechaActual;
 
