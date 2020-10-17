@@ -7,7 +7,7 @@ $fechaActual = date('d/m/Y');
 
 
 
-$Sql="Select  *from consult_nino where  clave='$clave' and fehca_cita= like '%$fechaActual'";
+$Sql="Select  *from consult_nino where  clave='$clave' and fehca_cita='$fechaActual'";
 $sentencia=sqlsrv_query($conexion,$Sql);
 
 
