@@ -17,6 +17,6 @@ if($row=sqlsrv_fetch_Array($sentencia,SQLSRV_FETCH_ASSOC)){
     echo $data='1';
 }else{
     echo $data='0';
-}*//
+}*/
  
 ?>
